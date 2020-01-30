@@ -3,10 +3,6 @@ class Song
 
   @@all = []
 
-def initialize(name)
-         @name = name
-         @songs = []
-       end
   def initialize(name, artist=nil)
     @name = name
     @artist = artist
